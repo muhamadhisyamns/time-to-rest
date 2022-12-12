@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h1> Haloo delita septianti </h1>
+        <img src="E:\DELITA\New folder\image\1592208396064.jpg"> 
+        <h1> cape ga hari ini?  </h1>
+        <button id='btn_iyaa' onclick='alert("SELAMAT ISTIRAHATT YAA")'>iyaa </button>&nbsp;
+        <button id='btn_G' onclick='G(this)'
+            style='position:absolute'>G </button>    
+            <audio src= "E:\DELITA\New folder\audio\Kau Rumahku.mp3" controls loop> </audio>
+    </body>
+    <script>
+        function G(id){
+            var iyaa = document.getElementById('btn_iyaa');
+            var i = Math.Floor(Math.random()*300)+1;
+            var j = Math.Floor(Math.random()*100)+iyaa.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+        
+    </script>
+</html>  
